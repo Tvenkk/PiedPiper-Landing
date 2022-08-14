@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+
+/* Первая секция */
+
+.section-header {
+    height: 84px;
+    background-color: #007765;
+}
+
+.header__icon {
+    padding-top: 20px;
+    padding-left: 55px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list__item {
+    font-size: 24px;
+    margin-right: 23px;
+}
+
+.list__item:last-child {
+    margin-right: 0px;
+}
+
+.list-item__href {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* Конец первой секции */
+
+
+/* Вторая секция */
+
+
+.second-section {
+    height: 403px;
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 48px;
+}
+
+.second-section__paragraph {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.second-section__text {
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+
+/* Конец второй секции */
+
+
+/* Третья секция */
+
+
+.third-section {
+    min-height: 719px;
+}
+
+.third-section__container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.third-section__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.third-section__title {
+    color: #007765;
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.third-section__text {
+    font-size: 32px;
+}
+
+
+/* Конец третьей секции */
+
+
+/* Чтвёртая секция */
+
+
+.fourth-section {
+    height: 483px;
+    background-image: url(../img/image2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth-section__wrapper {
+    max-width: 839px;
+    margin: 0 auto;
+    padding-top: 128px;
+}
+
+.fourth-section__text {
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+/* Конец четвёртой секции */
+
+
+/* Пятая секция */
+
+
+.five-section {
+    min-height: 604px;
+}
+
+.five-section__wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.five-section__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    margin-bottom: 16px;
+}
+
+.five-section__title-text {
+    font-size: 64px;
+    color: #007765;
+}
+
+.five-section__logo-text {
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+.five-section__logo {
+    margin-right: 48px;
+}
+
+.five-section__text {
+    font-size: 32px;
+}
+
+.five-section__second-text {
+    font-size: 32px;
+}
+
+
+/* Конец пятой секции */
+
+
+/* Шестая секция */
+
+
+.six-section {
+    height: 845px;
+    background-color: #EEEEEE;
+}
+
+.six-section__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    margin-bottom: 56px;
+}
+
+.six-section__title-text {
+    font-size: 64px;
+    color: #007765;
+}
+
+.six-section__line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 82px;
+    
+}
+
+.six-section__card {
+    margin-right: 212px;
+}
+
+.six-section__card:last-child{
+    margin-right: 0px;
+}
+
+.six-section__card p {
+    text-align: center;
+}
+
+.icon-line {
+    margin-bottom: 12px;
+}
+
+.card__name {
+    font-size: 24px;
+    color: #007765;
+}
+
+.card__job {
+    font-size: 18px;
+}
+
+.six-section__line2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Конец шестой секции */
+
+
+/* Седьмая секция */
+
+
+.seven-section {
+    height: 176px;
+    background-color: #333333;
+}
+
+.seven-section__block {
+    max-width: 540px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+
+.seven-section__text {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* Конец седьмой секции */
